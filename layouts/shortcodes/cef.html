@@ -1,0 +1,46 @@
+{{ $imagePath0 := .Get 0 }}
+{{ $image0 := .Page.Resources.GetMatch $imagePath0 }}
+{{ $image0 := $image0.Resize "x400" }}
+{{ $image0r := div $image0.Height (mul $image0.Width 1.0) }}
+{{ $imagePath1 := .Get 1 }}
+{{ $image1 := .Page.Resources.GetMatch $imagePath1 }}
+{{ $image1 := $image1.Resize "x400" }}
+{{ $image1r := div $image1.Height (mul $image1.Width 1.0) }}
+{{ $h := div (add $image0r $image1r) 1024.0 }}
+<code>
+{{ printf "%#v x %#v = %#v" $image0.Width $image0.Height $image0r }}<br>
+{{ printf "%#v x %#v = %#v" $image1.Width $image1.Height $image1r }}<br>
+{{ println $h }}
+</code>
+
+<p>
+<img src="{{ $image0.RelPermalink }}" width="{{ $image0.Width }}" height="{{ $image0.Height }}">
+<img src="{{ $image1.RelPermalink }}" width="{{ $image1.Width }}" height="{{ $image1.Height }}">
+</p>
+
+
+<style>
+.cef img {
+  width: 100%;
+  min-height: 100px;
+  height: 100%;
+  object-fit: cover;
+}
+</style>
+<div class="cef" style="display: flex; margin: 0 -200px">
+	<div style=" margin: 0 5px">
+		<img src="{{ $image0.RelPermalink }}"/>
+	</div>
+	<div style=" margin: 0 5px">
+		<img src="{{ $image1.RelPermalink }}"/>
+	</div>
+</div>
+
+<div class="cef" style="display: flex; margin: 0 -200px">
+	<div style=" margin: 0 5px">
+		<img src="https://64.media.tumblr.com/c962d7f4e3f237e51e4addcc605ab252/7b08e8a8241896a1-e4/s1280x1920/9024109c9b115e790e6d3cefb813cccb553a0f82.jpg"/>
+	</div>
+	<div style=" margin: 0 5px">
+		<img src="https://64.media.tumblr.com/84f23e5268b303d4daaebba2e06d6399/7b08e8a8241896a1-3f/s400x600/03c42c67d9cde806fefa37b197920623b2037378.jpg"/>
+	</div>
+</div>

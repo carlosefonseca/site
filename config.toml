@@ -1,0 +1,75 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = "Carlos Fonseca"
+theme = 'CEF'
+
+enableEmoji = true
+
+# Author config
+[author]
+name = "Carlos Fonseca"
+email = "carlosefonseca@gmail.com"
+link = "https://carlosefonseca.com"
+
+[menu]
+[[menu.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+[[menu.main]]
+name = 'Tags'
+pageRef = '/tags'
+weight = 20
+[[menu.main]]
+name = 'About'
+pageRef = '/about'
+weight = 30
+
+# https://hugoloveit.com/theme-documentation-basics/#site-configuration
+
+[params]
+title = "Carlos Fonseca"
+defaultTheme = "light"
+
+[params.social]
+GitHub = "carlosefonseca"
+Linkedin = "carlosefonseca"
+Instagram = "carlosefonseca"
+Email = "carlosefonseca@gmail.com"
+Mastodon = "https://masto.pt/@carlosefonseca"
+Strava = "carlosefonseca"
+
+[params.header]
+desktopMode = "normal"
+
+# Header config
+[params.header.title]
+name = "whatever…"
+typeit = false
+
+# Home page config
+[params.home]
+rss = 10
+
+[params.home.profile]
+enable = true
+gravatarEmail = "carlosefonseca@gmail.com"
+title = "Carlos Fonseca"
+subtitle = ""
+typeit = false
+social = true
+disclaimer = ""
+
+[params.home.posts]
+enable = true
+paginate = 20
+
+[params.footer]
+since = 2023
+
+[params.page]
+lightgallery = true
+toc = false
+
+[params.page.share]
+enable = false
