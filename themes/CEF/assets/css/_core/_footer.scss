@@ -23,3 +23,9 @@ footer {
 
   @include blur;
 }
+
+@media only screen and (max-width: 680px) {
+  footer {
+    width: 100%;
+  }
+}
