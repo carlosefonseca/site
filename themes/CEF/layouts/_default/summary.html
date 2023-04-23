@@ -26,14 +26,15 @@
     <div class="post-meta">
         {{- $author := $params.author | default .Site.Author.name | default (T "author") -}}
         {{- $authorLink := $params.authorlink | default .Site.Author.link | default .Site.Home.RelPermalink -}}
-        <span class="post-author">
+        <!-- <span class="post-author">
             {{- $options := dict "Class" "author" "Destination" $authorLink "Title" "Author" "Rel" "author" "Icon" (dict "Class" "fas fa-user-circle fa-fw") "Content" $author -}}
             {{- partial "plugin/a.html" $options -}}
-        </span>
+        </span>&nbsp; -->
 
         {{- with .Site.Params.dateFormat | default "2006-01-02" | .PublishDate.Format -}}
-            &nbsp;<span class="post-publish">
-                {{- printf `<time datetime="%v">%v</time>` . . | dict "Date" | T "publishedOnDate" | safeHTML -}}
+            <span class="post-publish">
+                <time datetime="{{ . }}">{{ . }}</time>
+                <!-- {{- printf `<time datetime="%v">%v</time>` . . | dict "Date" | T "publishedOnDate" | safeHTML -}} -->
             </span>
         {{- end -}}
 

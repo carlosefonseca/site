@@ -1,10 +1,11 @@
-baseURL = 'http://carlosefonseca.com/hugo'
+baseURL = 'http://carlosefonseca.com'
 languageCode = 'en-us'
 title = "Carlos Fonseca"
 theme = 'CEF'
 
 enableGitInfo = true
 enableEmoji = true
+posts = '/posts/:year/:month/:title/'
 
 # Author config
 [author]
@@ -28,6 +29,9 @@ weight = 30
 
 # https://hugoloveit.com/theme-documentation-basics/#site-configuration
 
+[Permalinks]
+  posts = ":year/:month/:slug"
+
 [params]
 title = "Carlos Fonseca"
 defaultTheme = "light"
@@ -36,9 +40,14 @@ defaultTheme = "light"
 GitHub = "carlosefonseca"
 Linkedin = "carlosefonseca"
 Instagram = "carlosefonseca"
-Email = "carlosefonseca@gmail.com"
-Mastodon = "https://masto.pt/@carlosefonseca"
 Strava = "carlosefonseca"
+Mastodon = "https://masto.pt/@carlosefonseca"
+Email = "carlosefonseca@gmail.com"
+Flickr = "whatever-"
+Keybase = "carlosefonseca"
+Spotify = "carlosefonseca"
+Goodreads = "6897409-carlos-fonseca"
+RSS = true
 
 [params.header]
 desktopMode = "normal"
