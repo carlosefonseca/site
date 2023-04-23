@@ -42,6 +42,7 @@ Strava = "carlosefonseca"
 
 [params.header]
 desktopMode = "normal"
+mobileMode = "normal"
 
 # Header config
 [params.header.title]
