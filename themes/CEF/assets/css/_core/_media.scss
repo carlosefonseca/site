@@ -34,6 +34,14 @@
   #header-desktop .header-wrapper {
     padding-left: 1rem;
   }
+  
+  header {
+    width: 80%;
+  }
+  
+  footer {
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width: 680px) {
@@ -76,5 +84,9 @@
         display: block;
       }
     }
+  }
+  
+ footer {
+    width: 100%;
   }
 }
