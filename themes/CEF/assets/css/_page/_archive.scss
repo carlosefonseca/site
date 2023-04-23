@@ -1,11 +1,15 @@
 .archive {
+  padding-bottom: 20px;
+  
   .single-title {
-    text-align: right;
+    padding: 30px $single-hpadding 0;
+    // text-align: right;
   }
 
   .group-title {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
+    padding: 30px $single-hpadding 0;
   }
 
   @import "../_partial/_archive/terms";

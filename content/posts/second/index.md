@@ -2,6 +2,7 @@
 title: "My SECOND Post"
 date: 2023-04-19T14:02:28+01:00
 tags: [metatag]
+categories: [blah]
 resources:
 - name: featured-image
   src: images/feat.png

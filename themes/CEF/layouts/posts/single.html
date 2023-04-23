@@ -30,12 +30,12 @@
         {{- /* Meta */ -}}
         <div class="post-meta">
             <div class="post-meta-line">
-                {{- $author := $params.author | default .Site.Author.name | default (T "author") -}}
+                <!-- {{- $author := $params.author | default .Site.Author.name | default (T "author") -}}
                 {{- $authorLink := $params.authorlink | default .Site.Author.link | default .Site.Home.RelPermalink -}}
                 <span class="post-author">
                     {{- $options := dict "Class" "author" "Destination" $authorLink "Title" "Author" "Rel" "author" "Icon" (dict "Class" "fas fa-user-circle fa-fw") "Content" $author -}}
                     {{- partial "plugin/a.html" $options -}}
-                </span>
+                </span>&nbsp; -->
 
                 {{- $categories := slice -}}
                 {{- range .Params.categories -}}
@@ -43,12 +43,12 @@
                     {{- $categories = $categories | append (printf `<a href="%v"><i class="far fa-folder fa-fw" aria-hidden="true"></i>%v</a>` $category.RelPermalink $category.Title) -}}
                 {{- end -}}
                 {{- with delimit $categories "&nbsp;" -}}
-                    &nbsp;<span class="post-category">
+                    <span class="post-category">
                         {{- dict "Categories" . | T "includedInCategories" | safeHTML -}}
-                    </span>
+                    </span>&nbsp;
                 {{- end -}}
-            </div>
-            <div class="post-meta-line">
+            <!-- </div>
+            <div class="post-meta-line"> -->
                 {{- with .Site.Params.dateformat | default "2006-01-02" | .PublishDate.Format -}}
                     <i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="{{ . }}">{{ . }}</time>&nbsp;
                 {{- end -}}

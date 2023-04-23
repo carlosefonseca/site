@@ -1,7 +1,7 @@
 @import "../_partial/_single/toc";
 
 .single {
-  background-color: white;
+  // background-color: white;
   
   .single-title {
     // margin: 2rem 0 .5rem;
@@ -53,6 +53,7 @@
 
     img.lazyloaded {
       width: 100%;
+      @include object-fit(cover);
     }
   }
 

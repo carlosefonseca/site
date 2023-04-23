@@ -1,5 +1,6 @@
 .tag-cloud-tags {
   margin: 10px 0;
+  padding: 30px $single-hpadding 0;
 
   @include link(true, true);
 
