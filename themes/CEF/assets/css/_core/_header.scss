@@ -1,7 +1,7 @@
 header {
   width: 60%;
   max-width: 1024px;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
   z-index: 150;
   background-color: $header-background-color;
   @include transition(box-shadow 0.3s ease);

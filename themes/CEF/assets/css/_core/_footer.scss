@@ -1,9 +1,13 @@
 footer {
   height: 2rem;
-  width: 100%;
+  width: 60%;
+  max-width: 1024px;
+  margin: 50px auto 0 auto;
   text-align: center;
   line-height: 1.25rem;
   padding: 1rem 0;
+  
+  background-color: white;
 
   .footer-container {
     font-size: .875rem;

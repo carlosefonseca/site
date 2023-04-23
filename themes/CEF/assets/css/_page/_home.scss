@@ -1,5 +1,6 @@
 .home {
   .home-profile {
+    background-color: white;
     @include transform(translateY( 16vh));
     padding: 0 0 .5rem;
     text-align: center;
@@ -77,8 +78,9 @@
   }
 
   .summary {
-    padding-top: 1rem;
-    padding-bottom: .8rem;
+    background-color: white;
+    margin-top: 25px;
+    padding: 1rem 20px;
     color: $global-font-color;
     border-bottom: 1px dashed $global-border-color;
 
@@ -88,10 +90,10 @@
     }
 
     .featured-image-preview {
-      width: 100%;
+      // width: 100%;
       padding: 30% 0 0;
       position: relative;
-      margin: 0.6rem auto;
+      margin: 0.6rem -20px;
       @include transition(transform 0.4s ease);
 
       img {
