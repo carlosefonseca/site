@@ -55,9 +55,11 @@
                             </span>
                         </span>
                     {{- end -}}
+                    {{- if false -}}
                     <a href="javascript:void(0);" class="menu-item theme-switch" title="{{ T "switchTheme" }}">
                         <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
                     </a>
+                    {{- end -}}
                 {{- end -}}
                 {{- if .Site.IsMultiLingual -}}
                 <a href="javascript:void(0);" class="menu-item language" title="{{ T "selectLanguage" }}">
@@ -148,9 +150,11 @@
                     {{- .Pre | safeHTML }}{{ .Name }}{{ .Post | safeHTML -}}
                 </a>
             {{- end -}}
+            {{- if false -}}
             <a href="javascript:void(0);" class="menu-item theme-switch" title="{{ T "switchTheme" }}">
                 <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
             </a>
+            {{- end -}}
             {{- if .Site.IsMultiLingual -}}
             
                 <a href="javascript:void(0);" class="menu-item" title="{{ T "selectLanguage" }}">
