@@ -9,18 +9,30 @@
 	margin: 0 5px 0 0;
 }
 
-.hgrid div {
+.content>.photo {
+	margin: 0px -50px;
+	background-color: red;
+	display: flex;
+}
+
+.content>.photo>img {
+	width: 100%
+}
+
+.photo {
 	position: relative
 }
 
 .exif {
 	position: absolute;
-	bottom: 0;
+	bottom: 5px;
+	left: 5px;
 	background: #00000080;
 	color: white;
 	margin: 0 !important;
 	opacity: 0;
 	padding: 5px 10px !important;
+	border-radius: 5px;
 }
 
 .photo:hover ul {
@@ -44,6 +56,10 @@
 .photo ul li.ph-loc {
 	display: inline;
 	padding: 1px 4px;
+}
+
+.photo ul li.ph-loc a {
+	color: white;
 }
 
 .photo ul li.ph-c,

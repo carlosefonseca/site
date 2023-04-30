@@ -1,6 +1,6 @@
 {{ $imagePath := .Get 0 }}
 {{ $image := .Page.Resources.GetMatch $imagePath }}
-{{ $image := $image.Resize "x600" }}
+{{/* $image := $image.Resize "x600" */}}
 
 <div class="photo">
 	<img src="{{ $image.RelPermalink }}" />
@@ -12,7 +12,7 @@
 		{{ $lat := .Lat }}
 		{{with .Long}}
 		<li class="ph-loc">
-			<a href="https://geohack.toolforge.org/geohack.php?language=en&params={{$lat}};{{.}}_dim:10" target="_blank">:(fas fa-location-dot):</a>
+			<a href="https://geohack.toolforge.org/geohack.php?language=en&params={{$lat}};{{.}}_dim:10" target="_blank" title="Location">:(fas fa-location-dot):</a>
 		</li>
 		{{ end }}
 		{{ with .Tags.Model }}<li class="ph-c">{{ . }}</li>{{ end }}

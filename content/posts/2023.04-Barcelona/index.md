@@ -35,6 +35,12 @@ El gothic is the old town. Just dive in and explore its streets.
 {{< /hgrid >}}
 
 ### Cathedral 
+
+:(fa-brands wikipedia-w):
+:(fa-solid fa-wifi):
+
+![:(wikipedia-w):](https://en.wikipedia.org/wiki/Barcelona_Cathedral)
+
 The Cathedral was under maintenance and had a huge ad covering the area under work which was a bit annoying. We did go to the roof to enjoy a view of the city.
 
 {{< hgrid >}}
@@ -42,8 +48,10 @@ The Cathedral was under maintenance and had a huge ad covering the area under wo
 {{< photo "images/BCN23-007.jpeg" >}}
 {{< /hgrid >}}
 
-![](images/BCN23-010.jpeg)
-![](images/BCN23-089.jpeg)
+{{< photo "images/BCN23-010.jpeg" >}}
+{{< photo "images/BCN23-089.jpeg" >}}
+
+
 ### Sant Felip Neri
 A square with a church of the same name where still remain the marks of [a bombing](https://en.wikipedia.org/wiki/Pla%C3%A7a_de_Sant_Felip_Neri "Wikipedia") in 1938 that killed 30 people, mostly children.
 
