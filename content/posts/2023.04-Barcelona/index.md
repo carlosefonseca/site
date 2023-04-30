@@ -36,10 +36,7 @@ El gothic is the old town. Just dive in and explore its streets.
 
 ### Cathedral 
 
-:(fa-brands wikipedia-w):
-:(fa-solid fa-wifi):
-
-![:(wikipedia-w):](https://en.wikipedia.org/wiki/Barcelona_Cathedral)
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org/wiki/Barcelona_Cathedral)
 
 The Cathedral was under maintenance and had a huge ad covering the area under work which was a bit annoying. We did go to the roof to enjoy a view of the city.
 
@@ -53,113 +50,180 @@ The Cathedral was under maintenance and had a huge ad covering the area under wo
 
 
 ### Sant Felip Neri
-A square with a church of the same name where still remain the marks of [a bombing](https://en.wikipedia.org/wiki/Pla%C3%A7a_de_Sant_Felip_Neri "Wikipedia") in 1938 that killed 30 people, mostly children.
+
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org/wiki/Pla%C3%A7a_de_Sant_Felip_Neri)
+
+A quiet square with a church of the same name where still remain the marks of a bombing in 1938 that killed 30 people, mostly children.
 
 ### Plaça de Sant Jaume
-[Plaça Sant Jaume](https://en.wikipedia.org/wiki/Pla%C3%A7a_Sant_Jaume "Wikipedia") is the square where the government of Catalunya and the City Hall are located.
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org/wiki/Pla%C3%A7a_Sant_Jaume)
+
+Plaça Sant Jaume is the square where the government of Catalunya and the City Hall are located. It's wide, low traffic, has a few restaurantes including [Conesa Entrepans](#Conesa_Entrepans) which we tried.
 
 ### Plaça del Rei
-[Plaça del Rei](https://en.wikipedia.org/wiki/Pla%C3%A7a_del_Rei "Plaça_del_Rei")
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org/wiki/Pla%C3%A7a_del_Rei)
+
+A square surrounded by medieval buildings.
 
 ### Plaça Reial
-[Plaça Reial](https://en.wikipedia.org/wiki/Pla%C3%A7a_Reial "Plaça_Reial")
-![](images/BCN23-020.jpeg)
+{{< photo "images/BCN23-020.jpeg" >}}
+
+Large square full of life and restaurants and a small street market.
+
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org/wiki/Pla%C3%A7a_Reial)
+
 
 ### Les Galeries Maldà
 
+
+
 ## La Rambla
-![](images/BCN23-018.jpeg)
+{{< photo "images/BCN23-018.jpeg" >}}
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org/wiki/La_Rambla,_Barcelona)
 
 ### La Boqueria
-![](images/BCN23-003.jpeg)
-![](images/BCN23-002.jpeg)
+{{< hgrid >}}
+{{< photo "images/BCN23-003.jpeg" >}}
+{{< photo "images/BCN23-002.jpeg" >}}
+{{< /hgrid >}}
+
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org/wiki/La_Boqueria)
 
 ### Palau Guel
-![](images/BCN23-019.jpeg)
+{{< photo "images/BCN23-019.jpeg" >}}
+
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org/wiki/Palau_Güell)
+
 ## La Barceloneta
-![](images/BCN23-014.jpeg)
+{{< photo "images/BCN23-014.jpeg" >}}
+
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org/wiki/La_Barceloneta,_Barcelona)
 
 
 ## Passeig de Gràcia
 
+## Plaça de Catalunya
+
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org/wiki/Plaça_de_Catalunya)
+
 ### Casa Batlò
-![](images/BCN23-022.jpeg)
-![](images/BCN23-051.jpeg)
-![](images/BCN23-053.jpeg)
-![](images/BCN23-056.jpeg)
-![](images/BCN23-059.jpeg)
-![](images/BCN23-058.jpeg)
+{{< photo "images/BCN23-059.jpeg" >}}
+
+{{< hgrid >}}
+{{< photo "images/BCN23-051.jpeg" >}}
+{{< photo "images/BCN23-053.jpeg" >}}
+{{< /hgrid >}}
+
+{{< hgrid >}}
+{{< photo "images/BCN23-056.jpeg" >}}
+{{< photo "images/BCN23-058.jpeg" >}}
+{{< /hgrid >}}
+
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org/wiki/Casa_Batlló)
+
 ### La Pedrera (Casa Milà)
-![](images/BCN23-062.jpeg)
-![](images/BCN23-067.jpeg)
-![](images/BCN23-068.jpeg)
-![](images/BCN23-071.jpeg)
-![](images/BCN23-075.jpeg)
+{{< photo "images/BCN23-062.jpeg" >}}
+{{< photo "images/BCN23-067.jpeg" >}}
+{{< hgrid >}}
+{{< photo "images/BCN23-068.jpeg" >}}
+{{< photo "images/BCN23-075.jpeg" >}}
+{{< /hgrid >}}
+{{< photo "images/BCN23-071.jpeg" >}}
+
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org/wiki/Casa_Milà)
 
 ## Avinguda Gaudí
 ### Sant Pau Recinte Modernista
-![](images/BCN23-096.jpeg)
-![](images/BCN23-098.jpeg)
-![](images/BCN23-101.jpeg)
-![](images/BCN23-104.jpeg)
-![](images/BCN23-107.jpeg)
-![](images/BCN23-110.jpeg)
+{{< photo "images/BCN23-096.jpeg" >}}
+{{< photo "images/BCN23-098.jpeg" >}}
+{{< photo "images/BCN23-101.jpeg" >}}
+{{< photo "images/BCN23-104.jpeg" >}}
+{{< photo "images/BCN23-107.jpeg" >}}
+{{< photo "images/BCN23-110.jpeg" >}}
+
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org/wiki/Hospital_de_Sant_Pau)
+
 ### Temple Expiatori de la Sagrada Família
-![](images/BCN23-116.jpeg)
-![](images/BCN23-118.jpeg)
-![](images/BCN23-119.jpeg)
-![](images/BCN23-120.jpeg)
-![](images/BCN23-121.jpeg)
-![](images/BCN23-124.jpeg)
-![](images/BCN23-126.jpeg)
-![](images/BCN23-127.jpeg)
-![](images/BCN23-129.jpeg)
-![](images/BCN23-133.jpeg)
-![](images/BCN23-141.jpeg)
+{{< photo "images/BCN23-116.jpeg" >}}
+{{< photo "images/BCN23-118.jpeg" >}}
+{{< photo "images/BCN23-119.jpeg" >}}
+{{< photo "images/BCN23-120.jpeg" >}}
+{{< photo "images/BCN23-121.jpeg" >}}
+{{< photo "images/BCN23-124.jpeg" >}}
+{{< photo "images/BCN23-126.jpeg" >}}
+{{< photo "images/BCN23-127.jpeg" >}}
+{{< photo "images/BCN23-129.jpeg" >}}
+{{< photo "images/BCN23-133.jpeg" >}}
+{{< photo "images/BCN23-141.jpeg" >}}
+
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org/wiki/Sagrada_Família)
 
 ## Passeig de Lluís Companys
 
 ### Arc de Triomf
-![](images/BCN23-144.jpeg)
+{{< photo "images/BCN23-144.jpeg" >}}
+
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org/wiki/Arc_de_Triomf)
+
 ### Parc de la Ciutadella
-![](images/BCN23-146.jpeg)
+{{< photo "images/BCN23-146.jpeg" >}}
+
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org/wiki/Parc_de_la_Ciutadella)
 
 ## Park Guel
-![](images/BCN23-158.jpeg)
-![](images/BCN23-160.jpeg)
-![](images/BCN23-161.jpeg)
-![](images/BCN23-162.jpeg)
-![](images/BCN23-155.jpeg)
+{{< photo "images/BCN23-158.jpeg" >}}
+{{< photo "images/BCN23-160.jpeg" >}}
+{{< photo "images/BCN23-161.jpeg" >}}
+{{< photo "images/BCN23-162.jpeg" >}}
+{{< photo "images/BCN23-155.jpeg" >}}
+
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org)/wiki/Park_Güell
+
 ## Montjuïc Mountain
 
 ### Plaça d'Espanya / Torres Venecianes
-![](images/BCN23-024.jpeg)
-![](images/BCN23-026.jpeg)
-![](images/BCN23-044.jpeg)
+{{< photo "images/BCN23-024.jpeg" >}}
+{{< photo "images/BCN23-026.jpeg" >}}
+{{< photo "images/BCN23-044.jpeg" >}}
+
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org/wiki/Plaça_d%27Espanya,_Barcelona)
 
 ### Magic Fountain of Montjuïc
-![](images/BCN23-043.jpeg)
+{{< photo "images/BCN23-043.jpeg" >}}
+
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org/wiki/Magic_Fountain_of_Montjuïc)
+
 ### CaixaForum
 
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org/wiki/CaixaForum_Barcelona)
+
 ### Palacio Nacional
-![](images/BCN23-041.jpeg)
-![](images/BCN23-042.jpeg)
+{{< photo "images/BCN23-041.jpeg" >}}
+{{< photo "images/BCN23-042.jpeg" >}}
+
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org/wiki/Palau_Nacional)
+
 ### Fundació Joan Miró
-![](images/BCN23-028.jpeg)
+{{< photo "images/BCN23-028.jpeg" >}}
+
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org/wiki/Fundació_Joan_Miró)
 
 ### Telefèric de Montjuïc
 
 ### Castell de Montjuïc
-![](images/BCN23-033.jpeg)
+{{< photo "images/BCN23-033.jpeg" >}}
+
+[:(fa-brands fa-wikipedia-w):](https://en.wikipedia.org/wiki/Montjuïc_Castle)
+
 ### Olympic Stadium Lluís Companys
-![](images/BCN23-038.jpeg)
-![](images/BCN23-039.jpeg)
-![](images/BCN23-040.jpeg)
+{{< photo "images/BCN23-038.jpeg" >}}
+{{< photo "images/BCN23-039.jpeg" >}}
+{{< photo "images/BCN23-040.jpeg" >}}
 
 ## Muntanya de Tibidabo
-![](images/BCN23-077.jpeg)
-![](images/BCN23-078.jpeg)
-![](images/BCN23-083.jpeg)
+{{< photo "images/BCN23-077.jpeg" >}}
+{{< photo "images/BCN23-078.jpeg" >}}
+{{< photo "images/BCN23-083.jpeg" >}}
 
 
 
@@ -168,36 +232,36 @@ A square with a church of the same name where still remain the marks of [a bombi
 ## La Rambla / El Gothic
 
 ### Tabarlot
-![](images/BCN23-150.jpeg)
-![](images/BCN23-151.jpeg)
-![](images/BCN23-152.jpeg)
+{{< photo "images/BCN23-150.jpeg" >}}
+{{< photo "images/BCN23-151.jpeg" >}}
+{{< photo "images/BCN23-152.jpeg" >}}
 
 ### Conesa Entrepans
 
 
 
 ### El Bosc de les Fades
-![](images/BCN23-016.jpeg)
-![](images/BCN23-017.jpeg)
+{{< photo "images/BCN23-016.jpeg" >}}
+{{< photo "images/BCN23-017.jpeg" >}}
 
 ### Tapas Bravas
-![](images/BCN23-023.jpeg)
+{{< photo "images/BCN23-023.jpeg" >}}
 
 ## Calle Blai
 
 ### Blai 9
-![](images/BCN23-046.jpeg)
-![](images/BCN23-047.jpeg)
-![](images/BCN23-163.jpeg)
+{{< photo "images/BCN23-046.jpeg" >}}
+{{< photo "images/BCN23-047.jpeg" >}}
+{{< photo "images/BCN23-163.jpeg" >}}
 ### La Tasqueta de Blai
-![](images/BCN23-049.jpeg)
-![](images/BCN23-050.jpeg)
+{{< photo "images/BCN23-049.jpeg" >}}
+{{< photo "images/BCN23-050.jpeg" >}}
 ## Passeig de Gràcia
 
 ### Cerveseria Catalana
 
 ## Avinguda Gaudí
 ### El Piso
-![](images/BCN23-112.jpeg)
-![](images/BCN23-113.jpeg)
-![](images/BCN23-114.jpeg)
+{{< photo "images/BCN23-112.jpeg" >}}
+{{< photo "images/BCN23-113.jpeg" >}}
+{{< photo "images/BCN23-114.jpeg" >}}
