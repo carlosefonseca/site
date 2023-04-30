@@ -34,14 +34,14 @@ El gothic is the old town. Just dive in and explore its streets.
 {{< photo "images/IMG_1440.jpeg" >}}
 {{< /hgrid >}}
 
-{{< cef "images/BCN23-013.jpg" "images/IMG_1440.jpeg" >}}
-
-{{< cef "images/BCN23-092.jpeg" "images/BCN23-095.jpeg" >}}
-
 ### Cathedral 
 The Cathedral was under maintenance and had a huge ad covering the area under work which was a bit annoying. We did go to the roof to enjoy a view of the city.
-![](images/BCN23-005.jpeg)
-![](images/BCN23-007.jpeg)
+
+{{< hgrid >}}
+{{< photo "images/BCN23-005.jpeg" >}}
+{{< photo "images/BCN23-007.jpeg" >}}
+{{< /hgrid >}}
+
 ![](images/BCN23-010.jpeg)
 ![](images/BCN23-089.jpeg)
 ### Sant Felip Neri

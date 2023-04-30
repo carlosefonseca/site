@@ -1,22 +1,22 @@
 {{ $imagePath := .Get 0 }}
 {{ $image := .Page.Resources.GetMatch $imagePath }}
-{{ $image := $image.Resize "x500" }}
+{{ $image := $image.Resize "x600" }}
 
-<div>
+<div class="photo">
 	<img src="{{ $image.RelPermalink }}" />
 	{{ with $image.Exif }}
-	<ul>
+	<ul class="exif">
 		{{ with .Tags.FNumber }}<li class="ph-f">ƒ/{{ . }}</li>{{ end }}
 		{{ with .Tags.ExposureTime }}<li class="ph-e">{{ . }} s</li>{{ end }}
 		{{ with .Tags.ISOSpeedRatings }}<li class="ph-i">ISO {{ . }}</li>{{ end }}
-		{{ with .Tags.Model }}<li class="ph-c">{{ . }}</li>{{ end }}
-		{{ with .Tags.LensModel }}<li class="ph-l">{{ . }}</li>{{ end }}
 		{{ $lat := .Lat }}
 		{{with .Long}}
 		<li class="ph-loc">
-			<a href="https://geohack.toolforge.org/geohack.php?language=en&params={{$lat}};{{.}}_dim:10">:(fas fa-location-dot):</a>
+			<a href="https://geohack.toolforge.org/geohack.php?language=en&params={{$lat}};{{.}}_dim:10" target="_blank">:(fas fa-location-dot):</a>
 		</li>
 		{{ end }}
+		{{ with .Tags.Model }}<li class="ph-c">{{ . }}</li>{{ end }}
+		{{ with .Tags.LensModel }}<li class="ph-l">{{ . }}</li>{{ end }}
 	</ul>
 	{{ end }}
 

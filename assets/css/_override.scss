@@ -1,19 +1,19 @@
-.cef img {
+.hgrid img {
 	width: 100%;
 	min-height: 100px;
 	height: 100%;
 	object-fit: cover;
 }
 
-.cef div:first-child {
+.hgrid div:first-child {
 	margin: 0 5px 0 0;
 }
 
-.cef div {
+.hgrid div {
 	position: relative
 }
 
-.cef div ul {
+.exif {
 	position: absolute;
 	bottom: 0;
 	background: #00000080;
@@ -23,21 +23,32 @@
 	padding: 5px 10px !important;
 }
 
-.cef div:hover ul {
+.photo:hover ul {
 	opacity: 1;
 }
 
-.cef ul li.ph-f,
-.cef ul li.ph-e,
-.cef ul li.ph-i {
+.exif li {
+	list-style: none;
+	font-size: smaller;
+}
+
+.photo ul li.ph-f,
+.photo ul li.ph-e,
+.photo ul li.ph-i {
 	display: inline;
 	padding: 1px 4px;
 	border: 1px solid white;
 	border-radius: 5px;
 }
 
-.cef ul li.ph-c,
-.cef ul li.ph-l,
-.cef ul li.ph-loc {
-	list-style: none;
+.photo ul li.ph-loc {
+	display: inline;
+	padding: 1px 4px;
+}
+
+.photo ul li.ph-c,
+.photo ul li.ph-l,
+.photo ul li.ph-loc {
+	margin: 5px 0;
+	line-height: 1em
 }
