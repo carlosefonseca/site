@@ -1,25 +1,41 @@
 {{ $imagePath0 := .Get 0 }}
 {{ $image0 := .Page.Resources.GetMatch $imagePath0 }}
-{{ $image0 := $image0.Resize "x400" }}
-{{ $image0r := div $image0.Height (mul $image0.Width 1.0) }}
 {{ $imagePath1 := .Get 1 }}
 {{ $image1 := .Page.Resources.GetMatch $imagePath1 }}
-{{ $image1 := $image1.Resize "x400" }}
-{{ $image1r := div $image1.Height (mul $image1.Width 1.0) }}
 
-<style>
-.cef img {
-  width: 100%;
-  min-height: 100px;
-  height: 100%;
-  object-fit: cover;
-}
-</style>
+{{ $image0r := div $image0.Width (mul $image0.Height 1.0) }}
+{{ $image1r := div $image1.Width (mul $image1.Height 1.0) }}
+{{ $h := div 1024 (mul $image0r (add 1 $image1r)) }}
+{{ $sz := ( printf "x%.0f" $h ) }}
+
+{{ $image0 := $image0.Resize $sz }}
+{{ $image1 := $image1.Resize $sz }}
+
 <div class="cef" style="display: flex; margin: 0 -50px">
-	<div style=" margin: 0 5px 0 0">
-		<img src="{{ $image0.RelPermalink }}"/>
+	<div>
+		<img src="{{ $image0.RelPermalink }}" />
+		{{ with $image0.Exif }}
+		<ul>
+			{{ with .Tags.FNumber }}<li class="ph-f">ƒ/{{ . }}</li>{{ end }}
+			{{ with .Tags.ExposureTime }}<li class="ph-e">{{ . }} s</li>{{ end }}
+			{{ with .Tags.ISOSpeedRatings }}<li class="ph-i">ISO {{ . }}</li>{{ end }}
+			{{ with .Tags.Model }}<li class="ph-c">{{ . }}</li>{{ end }}
+			{{ with .Tags.LensModel }}<li class="ph-l">{{ . }}</li>{{ end }}
+		</ul>
+		{{ end }}
+
 	</div>
 	<div>
-		<img src="{{ $image1.RelPermalink }}"/>
+		<img src="{{ $image1.RelPermalink }}" />
+		{{ with $image1.Exif }}
+		<ul>
+			{{ with .Tags.FNumber }}<li class="ph-f">ƒ/{{ . }}</li>{{ end }}
+			{{ with .Tags.ExposureTime }}<li class="ph-e">{{ . }} s</li>{{ end }}
+			{{ with .Tags.ISOSpeedRatings }}<li class="ph-i">ISO {{ . }}</li>{{ end }}
+			{{ with .Tags.Model }}<li class="ph-c">{{ . }}</li>{{ end }}
+			{{ with .Tags.LensModel }}<li class="ph-l">{{ . }}</li>{{ end }}
+		</ul>
+		{{ end }}
+
 	</div>
 </div>
